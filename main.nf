@@ -1,4 +1,16 @@
 #!/bin/bash
+
+cheers = Channel.from 'Bonjour', 'Ciao', 'Hello', 'Hola'
+
+process sayHello {
+  input: 
+    val x from cheers
+  script:
+    """
+    echo '$x world!'
+    """
+}
+
 process infiniteLoop {
     """
     while true
