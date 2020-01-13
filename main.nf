@@ -1,9 +1,11 @@
-process infiniteLoop{
-    script:
+#!/bin/bash
+process infiniteLoop {
     """
-    while(true){
-        println "Hello!"
-    }
+    while true
+    do
+        echo "Press [CTRL+C] to stop.."
+        sleep 1
+    done    
     """
 }
 

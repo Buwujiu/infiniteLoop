@@ -1,0 +1,6 @@
+### NEXTFLOW ###
+.nextflow.log
+.nextflow.log.*
+/.nextflow/
+
+.DS_Store
