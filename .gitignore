@@ -2,5 +2,6 @@
 .nextflow.log
 .nextflow.log.*
 /.nextflow/
+/work
 
 .DS_Store
