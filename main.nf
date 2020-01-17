@@ -12,7 +12,7 @@ process process_1 {
   script:
     """
     echo '$x world - 1'
-    sleep 600
+    sleep 6
     """
 }
 
